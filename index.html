@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAL</title>
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <center>
+  <div class="row">
+    <div class="shadow bg-success container mt-lg-5 rounded">
+      <h1 class="pt-4 text-white">STUDENT PORTAL</h1>
+      <div id="added" class="fs-3 text-success w-75 fw-semibold"></div>
+          <input type="text" placeholder="Enter Last Name" class="text-center ms-2 mt-2 w-75 p-2 rounded mb-4 shadow" id="lastname">
+         <input type="text" placeholder="Enter First Name" class="text-center ms-2 mt-2 w-75 p-2 rounded mb-4 shadow" id="firstname">
+        <input type="email" placeholder="Enter Email Address" class="text-center ms-2 mt-2 w-75 p-2 rounded mb-4 shadow" id="email">
+      <div id="valEmail" class="text-danger fw-bold- "></div>
+      <input type="password" placeholder="Enter Password" class="text-center ms-2 mt-2 w-75 p-2 rounded mb-4 shadow" id="password">
+      <div id="valPassword" class="text-danger fw-bold- "></div>
+      <button class="btn bg text-white w-50 margin fw-bold " onclick="signUp()">SIGN UP</button>
+      <p class="text-white fw-semibold ms-2">Already have an account? <a href="login.html" style="color: rgb(119, 201, 119);">LOGIN HERE</a></p>
+    </div>
+</div>
+</center>
+    <script src="index.js"></script>
+</body>
+</html>

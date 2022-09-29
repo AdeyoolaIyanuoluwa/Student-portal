@@ -1,0 +1,31 @@
+body{
+    background-image: url(e.jpg);
+    overflow-x: hidden;
+    /* width: 100%; */
+    /* background-repeat: no-repeat; */
+}
+.container{
+    width: 28%;
+}
+.margin{
+    margin: 30px;
+    margin-left: 60px;
+}
+.bg{
+    background-color: rgb(119, 201, 119);
+}
+#show{
+    height: 250px;
+    width: 100%;
+    background-color:  rgb(119, 201, 119);
+    /* margin-top: 100px; */
+    /* margin-right: 200px; */
+}
+
+@media screen and (min-width: 200px) and (max-width:868px) {
+    .container{
+        width: 85%;
+        margin-top: 75px;
+    }
+}
+ 
