@@ -5,9 +5,9 @@ if(localStorage.studentDetails){
 
 
 function signUp(){
-    let regexForEmail = /^(([\w]+)([@])([\w]+)([.])([a-zA-Z]{1,5})([.][\w]{1,5})?)$/
-    let regexForName = /^[\w]{1,}$/
-    let regexForPassword = /^[\d]{4,}$/
+    // let regexForEmail = /^(([\w]+)([@])([\w]+)([.])([a-zA-Z]{1,5})([.][\w]{1,5})?)$/
+    // let regexForName = /^[\w]{1,}$/
+    // let regexForPassword = /^[\d]{4,}$/
     var portal = {
             lastName : lastname.value,
             firstName : firstname.value,
